@@ -15,7 +15,8 @@
     "@sap/cds-dk": "^8"
   },
   "scripts": {
-    "start": "cds-serve"
+    "start": "cds-serve",
+    "test": "node test.js"
   },
   "cds": {
   "requires": { "auth": { "kind": "dummy" }}
